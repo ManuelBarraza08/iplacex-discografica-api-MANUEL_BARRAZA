@@ -1,7 +1,7 @@
 # Dockerfile
 
 
-FROM gradle:8.7-jdk17 AS builder
+FROM gradle:8.7-jdk17 AS build
 WORKDIR /app
 COPY . .
 RUN gradle clean build -x test
