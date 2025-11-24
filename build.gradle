@@ -26,7 +26,7 @@ dependencies {
 }
 
 bootWar {
-    archiveFileName = 'discografia.war'
+    archiveFileName = 'discografia.jar'
 }
 
 tasks.withType(Test).configureEach {
